@@ -1,6 +1,8 @@
 package chess;
 
-public class ChessException extends RuntimeException{
+import boardgame.BoardExcepitions;
+
+public class ChessException extends BoardExcepitions {
 
     public ChessException(String msg){
         super(msg);
